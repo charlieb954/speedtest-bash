@@ -5,11 +5,6 @@ then
     rm results.csv
 fi
 
-if [ -e results_cut.csv ]
-then
-    rm results_cut.csv
-fi
-
 for i in {1..3}; do 
 	echo "Running speed test: $i/3"
 	echo "Speed test: $i" >> results.csv
